@@ -49,7 +49,7 @@ def hangman(argument):
 	}
 	return switcher.get(argument,"")
 
-list_easy = ['bake','make','cook','india','fool','break','eat','feel','heal','dark']
+list_easy = ['bake','make','cook','india','fool','break','eat','drink','heal','dark']
 list_medium = ['statement','motivation','inspiration','impulse','language','dreamers','maverick','trendsetter','trailblazer','independence']
 list_hard = ['accoutrements','circumlocution','idiosyncratic','magnanimous','parsimonious','perfidiousness','remunerative','sesquipedalian','superabundant','unencumbered']
 
@@ -112,5 +112,4 @@ while (counter<6):
 
 
 if (counter==6):
-	print "You lose. The word was", a
-
+	print "You lose. The word was"
